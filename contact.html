@@ -1,39 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Green Farm</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Likho Agriculture about produce, partnerships, and visits.">
+  <title>Contact | Likho Agriculture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Contact Tsepo Mohlomi Farm</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-
-    <section class="contact-form">
-        <h2>Get in Touch with Tsepo</h2>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Tsepo Farm industries. All Rights Reserved.</p>
-    </footer>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">L</span><span>Likho <em>Agriculture</em></span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button><nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">Our story</a><a href="index.html#produce">What we grow</a><a class="nav-cta active" href="contact.html">Talk to us <span>↗</span></a></nav></div></header>
+  <main>
+    <section class="simple-header"><div class="container"><div><p class="eyebrow">We'd love to hear from you</p><h1>Let's talk.</h1></div><nav aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><strong>Contact</strong></nav></div></section>
+    <section class="contact-form"><h2>Tell us what's on your mind.</h2><p class="section-intro">Whether you want to ask about this week's harvest, collaborate, or just say hello, send us a note below.</p><form id="contact-form"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required><label for="message">Your message</label><textarea id="message" name="message" required></textarea><button class="button button-primary" type="submit">Send message <span>↗</span></button><p class="form-status" tabindex="-1" role="status" aria-live="polite"></p></form></section>
+  </main>
+  <footer class="site-footer page-footer"><div class="container footer-inner"><a class="brand" href="index.html"><span class="brand-mark">L</span><span>Likho <em>Agriculture</em></span></a><p>Fresh from the land. Made for your table.</p><small>© <span class="year"></span> Likho Agriculture</small></div></footer>
 </body>
 </html>
